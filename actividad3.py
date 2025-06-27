@@ -70,5 +70,5 @@
 # prom=sum(edades)/len(edades)
 # print(f"mayor: {max(edades)}, menor: {min(edades)}, promedio{prom}")
 
-# punto 5
+# punto 5 #programa
 
