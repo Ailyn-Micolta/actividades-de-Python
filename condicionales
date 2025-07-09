@@ -1,0 +1,48 @@
+# taller
+#punto 1
+# numero1=float(input("ingresa un numero: "))
+# if numero1 >0:
+#     print(f"el numero 1 ({numero1}) es mayor que cero entonces es positivo")
+# elif numero1 <0:
+#     print(f"el numero 1 ({numero1}) es menor que cero entonces es negativo")
+# else:
+#     print(f"el numero 1 ({numero1}) es cero")
+
+#punto 2
+# numero1=float(input("ingresa un numero: "))
+# numero2=float(input("ingresa un numero: "))
+# if numero1>numero2:
+#     print(f"el numero 1 ({numero1}) es mayor que el segundo numero ({numero2})")
+# elif numero2>numero1:
+#     print(f"el numero 2 ({numero2}) es mayor que el primer numero ({numero1})")
+# else:
+#     print(f"los numeros ({numero1}), ({numero2}) los numeros son iguales")
+
+#punto 3
+# num1=float(input("ingrese un numero "))
+# if num1==0:
+#     print("el numero es igual a cero ")
+# elif num1 % 2 == 0:
+#     print("el numero es par ")
+# else:
+#     print("el numero es impar ")
+
+#punto 4
+# numero=int(input("ingresa un numero: "))
+# if 10<=numero<=20: 
+#     print("el numero esta entre 10 y 20: ")
+# else:
+#     print("el numero NO esta entre 10 y 20: ")
+
+#punto 5
+# a=int(input("ingresa el primer numero:"))
+# b=int(input("ingresa el segundo numero: "))
+# c=int(input("ingresa el tercer numero: "))
+# if a>= b and a>=c:
+#     print("el numero es mayor: {a}")
+# elif b>=and b>=c:
+#     print("el numero es mayor: {c}")
+# else:
+#     print("el numero es mayo: {c}")
+
+#punto 6
