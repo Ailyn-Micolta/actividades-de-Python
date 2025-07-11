@@ -46,3 +46,278 @@
 #     print("el numero es mayo: {c}")
 
 #punto 6
+
+# total=float(input("ingresa el valor total de la compra: "))
+# if total > 100 :
+#     descuento=total * 0.10
+#     total_final=total-descuento
+#     print(f"se aplico un 10% de descento(${descuento:.2f}.)")
+#     print(f"el precio final es: ${total_final:.2f}")
+
+#punto 7
+
+# edad=int(input("ingresa tu edad: "))
+# if edad >= 18:
+#     print("si puedes votar")
+# else:
+#     print("eres menor de edad, no puedes votar")
+
+#punto 8
+
+# numero=int(input("ingresa un numero: "))
+# if numero % 5 == 0 and numero % 3 == 0: 
+#     print(f"el numero {numero} es multiplo de 5 y de 3 ")
+# else:
+#     print(f"el numero{numero} no es multiplo de 5 y de 3 ")
+
+#punto 9
+
+# numero=int(input("ingresa el numero a verificar: "))
+# divi=int(input("ingresa el primer divisor: "))
+# divi2=int(input("ingrese el segundo divisor: "))
+# if numero % divi == 0 and numero % divi2 == 0:
+#     print(f"el numero{numero} es divisible entre {divi} y {divi2} ")
+# else:
+#     print(f"el numero {numero} no es divisible entre {divi} y {divi2} ")
+
+#taller 2
+
+#punto 1
+
+# edad=int(input("ingresa tu edad: "))
+# if edad < 18:
+#     print("eres menor de edad")
+# elif edad < 65:
+#     print("eres mayor de edad")
+# else:
+#     print("eres adulto mayor")
+
+#punto 2
+
+# estatura=float(input("ingresa tu estatura en metros: "))
+# if estatura < 1.5:
+#     print("en promedio eres bajito")
+# elif estatura <= 1.8:
+#     print("tienes una estatura promedio")
+# else:
+#     print("eres mas alto que la mayoria")
+
+#punto 3
+
+# numero=int(input("ingresa un numero: "))
+# if numero % 2 == 0 and numero % 3 == 0:
+#     print(" es multiplo de 2 y 3")
+# elif numero % 2 == 0:
+#     print("es multiplo de 2")
+# elif numero % 3 == 0:
+#     print("es multiplo de 3")
+# else:
+#     print("no es multiplo de 2 ni de 3")
+
+#punto 4
+
+# numero_dec=input("ingresa un numero decimal: ")
+# partes=numero_dec.split('.')
+# if len(partes) == 2:
+#     decimal=len(partes[1])
+# else:
+#     decimal=0
+# if decimal == 0:
+#     print("no tiene decimal")
+# elif decimal == 1:
+#     print("tiene 1 decimal")
+# elif decimal == 2:
+#     print("tiene 2 decimales")
+# else:
+#     print("tiene mas de 2 decimales")
+
+#punto 5
+
+# paises=("colombia", "peru","argentina", "mexico")
+# pais=input("ingresa un pais: ")
+# if pais in paises:
+#      print(f"{pais} esta en la lista")
+# else:
+#      print(f"{pais} no esta en la lista")
+
+#punto 6
+
+# contabi={
+#     "A": "Puedes donar a A y AB",
+#     "B": "Puedes donar a B y AB",
+#     "AB": "Puedes recibir de todos",
+#     "O": "Puedes donar a todos"
+# }
+# tipo= input("ingresa tu tipo de sagre (A, B, AB, O): ").upper()
+# if tipo in contabi:
+#     print(contabi[tipo])
+# else:
+#     print("tipo de sangre no valida")
+
+#punto 7
+# temperatura=float(input("ingresa la temperatura °C "))
+# if temperatura < 10:
+#     print("baja temperatura")
+# elif temperatura <= 25:
+#     print("ambiente templado")
+# else:
+#     print("hace demaciado calor")
+
+#punto 8
+
+# print("menu: ")
+# print("1, sumar")
+# print("2, restar")
+# print("3, multiplicar")
+# opcion=int(input("seleccione una opcion (1-3): "))
+# num1=float(input("ingrese el primer nuero: "))
+# num2=float(input("ingresa el segundo numero: "))
+# if opcion == 1:
+#     resultado = num1 + num2
+#     print(f"la suma es: {resultado}")
+# elif opcion == 2: 
+#     resultado = num1 - num2
+#     print(f"la resta es: {resultado}")
+# elif opcion == 3:
+#     resultado= num1 * num2
+#     print(f"el resultado de la multiplicacion es: {resultado}")
+# else:
+#     print("opcion no valida")
+
+#punto 9
+
+# mes={
+#     1:"Enero", 2:"Febrero", 3:"Marzo", 4:"Abril", 5:"Mayo", 6:"Junio", 7:"Julio", 8:"Agosto", 9:"Septiembre", 10:"Octubre", 11:"Noviembre", 12:"Diciembre"
+# }
+# num=int(input("ingresa un numero entre1 y 12: "))
+# if 1 <= num <= 12:
+#     print(f"el mes es {mes[num]}")
+# else:
+#     print("numero fuera del rango")
+
+#punto 10
+
+# num=input("ingresa un numero de 4 digitos: ")
+# if num[0] == '1':
+#     print("empieza con 1")
+# elif num[0] == '2':
+#     print("empieza con 2")
+# else:
+#     print("empieza con otro numero")
+
+#punto 11
+
+# pal=input("ingresa una palabra: ")
+# primera=pal[0].lower()
+# if '0' <= primera <= '9':
+#     print("la primera letra es un numero")
+# elif primera in "aeiou":
+#     print("la primera letra es una vocal")
+# else:
+#     print("la primera letra es una  consonante")
+
+#punto 12
+
+# fru={
+#     "manzana": 2000,
+#     "pera": 1500,
+#     "piña": 5000
+# }
+# fruta=input("ingresa una fruta: ").lower()
+# if fruta in fru:
+#     print(f"el precio de la{fruta} es $ {fru[fruta]}")
+# else:
+#     print("no esta disponible")
+
+#punto 13
+
+# cali=float(input("ingresa tu calificacion (0 a 5): "))
+# if cali < 3:
+#     print("perdiste")
+# elif cali <= 4:
+#     print("pasaste")
+# else:
+#     print("excelente")
+
+#punto 14
+
+# num=int(input("ingresa un numero: "))
+# if num % 4 == 0 and num % 6 == 0:
+#     print("es divisible entre 4 y 6")
+# elif num % 4 == 0:
+#     print("es divisible entre 4")
+# elif num % 6 == 0:
+#     print("es divisible entre 6")
+# else:
+#     print("no es divisible con ninguno")
+
+#punto 15
+
+# usu=["ailyn", "danilo", "Anderson"]
+# contraseña=["1208", "0425", "cafe"]
+# usua=input("usuario: ")
+# contrase=input("contraseña: ")
+# if usua in usu:
+#     indice=usu.index(usua)
+# if contrase == contraseña [indice]:
+#     print("acceso permitido")
+# elif
+#     print("clave incorrecta")
+# else:
+#     print("usuario no encontrado")
+
+#punto 16
+
+# edad= int(input("ingresa tu edad: "))
+# if edad <= 12:
+#     print("niño")
+# elif edad <= 17:
+#     print("adolecente")
+# elif edad <= 64:
+#     print("adulto")
+# else:
+#     print("adulto mayor")
+
+#punto 17
+
+# cap=("Madrid","Caracas", "Buenos Aires", "Paris", "Londres")
+# ciudad=input("ingresa un ciudad: ")
+# if ciudad in cap:
+#     print("es un capital")
+# else:
+#     print("ciudad secundaria")
+
+#punto 18
+
+# valor=float(input("ingresa el valor de la compra: "))
+# if valor > 200000:
+#     descuento=valor * 0.15
+# elif valor >= 100000:
+#     descuento=valor *0.10
+# else:
+#     descuento = 0
+# total=valor-descuento
+# print(f"descuento: $ {descuento: .0f}")
+# print(f"total a pagar: $ {total: .0f}")
+
+#punto 19
+
+# nom=input("ingresa tu nombre: ")
+# hor=int(input("numero de horas trabajadas: "))
+# tarifa=10000
+# sueldo=hor * tarifa
+# if hor > 40:
+#     bono=sueldo * 0.20
+#     sueldo += bono
+#     print(f"bonificacion por horas extra: $ {bono: .0f}")
+#     print(f"{nom}, tu sueldo total es: ${sueldo:.0f}")
+
+#punto 20
+
+# pun=int(input("ingresa tu puntaje (0 a 100): "))
+# if pun < 50:
+#     print("bajo")
+# elif pun <= 70:
+#     print("pasaste")
+# else:
+#     print("excelente")
