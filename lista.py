@@ -83,4 +83,74 @@
 # temperaturas.append(operacion1)
 # print(temperaturas)
 
+#ejercicio 1
+# num=float(input("ingresa un numero: "))
+# if num < 0:
+#     print(f"{num} el numero es negativo")
+# elif num > 0:
+#     print(f"{num} el numero es positivo")
+# else:
+#     print("el numero es cero")
 
+# ejercicio 2
+# num=float(input("ingresa un numero: "))
+# num1=float(input("ingresa un numero: "))
+# if num < num1:
+#     print(f"{num} es menor que {num1}")
+# elif num > num1:
+#     print(f"{num} es mayor que {num1}")
+# else:
+#     print("los dos numero soon iguales")
+
+#ejercicio 3
+# num=float(input("ingresa un numero: "))
+# if num % 2 ==0:
+#     print(f"{num} es par")
+# else:
+#     print(f"{num} no es par")
+
+# ejercicio 4
+# num=float(input("ingresa un numero: "))
+# if num >= 10 and num <= 20:
+#     print(f"{num} esta en el rango")
+# else:
+#     print(f"{num} no esta en el rango")
+
+#ejercicio 5
+# num=int(input("ingresa un numero: "))
+# num2=int(input("ingresa un numero: "))
+# num3=int(input("ingresa un numero: "))
+# if num >= num2 and num2 <= num3:
+#     print(f"{num}es mayor que {num2}")
+# elif num2>num and num2 >= num3:
+#     print(f"el menor es {num2}")
+# else:
+#     print(f"el mayor es {num3}")
+
+# #elercicio 6
+# val=float(input("ingresa el cuanto se te fue en la compra: "))
+# if val >= 100:
+#     oper=val*0.10
+#     opera=val-oper
+#     print(f"si se le hace descuento el valor de la cmpra seria {opera}")
+# else:
+#     print(f"a esta compra no se le aplico el descuento")
+
+#ejercico 7
+# años=int(input("ingrea tu edad: "))
+# if años >=18:
+#     print("eres mayor de edad, puedes votar")
+# else:
+#     print("eres menor de edad, no puedes votar")
+
+#ejercicio 8
+# valor=float(input("cuanto se te fue en la compra: "))
+# cliente=input("que tipo de cliente eres: ")
+# if cliente== "VIP":
+#     des=valor*0.20
+#     total=valor-des
+#     print("por ser VIP se le realiza un descuento")
+
+#ejercicio 9
+num=int(input("ingresa un numero: "))
+if num % 5 == 0 and

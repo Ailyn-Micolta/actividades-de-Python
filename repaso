@@ -1,0 +1,14 @@
+for letras in "texto":
+    if letras== "a":
+        print += "A"
+    elif letras == "e":
+        resultado += "E"
+    elif letras == "i":
+        resultado += "I"
+    elif letras == "o":
+        resultado += "O"
+    elif letras == "u":
+        resultado += "U"
+    else:
+        resultado += letras
+print("texto con vocales minusculas en mayusculas: ",resultado)
