@@ -152,5 +152,122 @@
 #     print("por ser VIP se le realiza un descuento")
 
 #ejercicio 9
-num=int(input("ingresa un numero: "))
-if num % 5 == 0 and
+# num=int(input("ingresa un numero: "))
+# if num % 5 == 0 and num % 3 == 0:
+#     print("el numero no es multiplo de 5 y de 3 al mismo tiempo")
+# else:
+#     print("el numero no es multiplo de ninguno de los dos numeros")
+
+#ejercicio 10
+# num=int(input("ingresa un numero:"))
+# if num % 2 == 0:
+#     print("el numero es divisible entre dos")
+# else:
+#     print("el numero no es divisible entre dos")
+
+#ejercicio 11
+# num=[4,12,15,8,3]
+# if num[2] > 10:
+#     print("mayor a 10")
+# else:
+#     print("manor o igual a 10")
+
+#ejercico 12
+# lis=[3,5,7,9]
+# if 7 in lis:
+#     print("esta en la lista")
+# else:
+#     print("no esta en la lista")
+
+#ejercicio 13
+# lis=[4,6,2,8]
+# operacion= lis[0]+lis[1]
+# if operacion > 10:
+#     print("suma alta")
+# else:
+#     print("suma baja")
+
+#ejercisio 14
+# nom=["Ailyn","Camila","Samantha","Danilo"]
+# ultimo=nom[-1]
+# print("ultimo nombre:", ultimo)
+# if ultimo == "Danilo":
+#     print("nombre correcto")
+# else:
+#     print("nombre diferente")
+
+#ejercicio 15
+# color=["rojo","azul","verde"]
+# if color [1]== "azul":
+#     color[1]= "amarillo"
+#     print("lista actualizada:", color)
+
+#ejercicio 16
+# tupla=(5,8,12,20)
+# if tupla[0]<tupla[-1]:
+#     print("orden ascendente")
+# else:
+#     print("orden descendente")
+
+#ejercicio 17
+# tupla=(25,32,28)
+# if tupla[1]>30:
+#     print("edad mayor a 30")
+# else:
+#     print("edad menor o igual a 30")
+
+#ejercicio 18
+# tupla=(1,2,3)
+# lista=list(tupla)
+# if lista[1]==2:
+#     lista[1]=10
+# nueva_tupla=tuple(list)
+# print("nueva tupla:", nueva_tupla)
+# #ejercicio 19
+# tupla=(4,9)
+# valor=tupla[1]
+# if valor>5:
+#     print("coordenada alta")
+# else:
+#     print("coordenada baja")
+
+#ejercicio 20
+# tupla=(3,4)
+# tupla1=(3,5)
+# if tupla==tupla1:
+#     print("tuplas iguales")
+# else:
+#     print("tuplas diferentes")
+
+#ejercicio 21
+# person={"nombre":"Lusia", "edad": 17}
+# if person ["edad"]>=18:
+#     print("Adulto")
+# else:
+#     print("menor edad")
+
+#ejercicio 22
+# person={"nombre":"Lucia","edad":20}
+# if person["edad"]>18:
+#     person["edad"]=21
+#     print("diccionario actualizado:", person)
+
+#ejercicio 23
+# person={"nombre":"Carlos"}
+# if "ciudad" not in person:
+#     person["ciudad"]= "Bogota"
+# print("diccionario con ciudad:", person)
+
+#ejercicio 24
+# producto={"producto":"pan","precio":1200}
+# if "precio" in producto:
+#     print("precio:", producto["precio"])
+# else:
+#     print("no hay precio")
+
+#ejercicio 25
+# inventario={"pan":1200, "leche":2000}
+# if "pan" in inventario:
+#     print("precio del pan:",inventario["pan"])
+# else:
+#     print("producto no disponible")
