@@ -82,7 +82,9 @@
 # temperaturas.append(operacion)
 # temperaturas.append(operacion1)
 # print(temperaturas)
-
+#********************************************************************
+#EJERCICIOS CONDICIONALES
+#********************************************************************
 #ejercicio 1
 # num=float(input("ingresa un numero: "))
 # if num < 0:
@@ -270,4 +272,4 @@
 # if "pan" in inventario:
 #     print("precio del pan:",inventario["pan"])
 # else:
-#     print("producto no disponible")
+#     print("producto no disponible")´{}
